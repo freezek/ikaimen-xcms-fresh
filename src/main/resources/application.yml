@@ -1,0 +1,20 @@
+spring:
+  profiles:
+    active: prod
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/dbgirl
+    username: root
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  rabbitmq:
+       host: 127.0.0.1
+       port: 5672
+       username: guest
+       password: guest
+#  mybatis:
+#    mapperLocations: classpath:mapper/*.xml
+#    typeAliasesPackage: com.aikaimen.entity.config
