@@ -17,8 +17,8 @@
 %>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ page import="java.util.*"%>
-<%@ page import="com.aikaimen.pay.util.*"%>
-<%@ page import="com.aikaimen.pay.config.*"%>
+<%@ page import="com.ikaimen.pay.util.*"%>
+<%@ page import="com.ikaimen.pay.config.*"%>
 <%
 	//获取支付宝POST过来反馈信息
 	Map<String,String> params = new HashMap<String,String>();

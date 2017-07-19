@@ -24,9 +24,9 @@
   -->
 
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.aikaimen.mapper.UserMapper">
+<mapper namespace="com.ikaimen.mapper.UserMapper">
 
-    <resultMap id="BaseResultMap" type="com.aikaimen.entity.model.User">
+    <resultMap id="BaseResultMap" type="com.ikaimen.entity.model.User">
         <id column="id" property="id"></id>
         <result column="name" property="name"></result>
         <result column="age" property="age"></result>
