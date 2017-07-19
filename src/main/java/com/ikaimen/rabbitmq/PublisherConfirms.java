@@ -20,10 +20,10 @@ public class PublisherConfirms {
 
     static {
         factory = new ConnectionFactory();
-        factory.setHost("47.93.221.152");
+        factory.setHost("你的MQ服务器IP");
         factory.setPort(5672);
-        factory.setUsername("guest");
-        factory.setPassword("guest");
+        factory.setUsername("你的消息服务器用户名");
+        factory.setPassword("你的消息服务器密码");
     }
 
 
