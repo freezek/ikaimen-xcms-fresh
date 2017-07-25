@@ -1,4 +1,4 @@
-package com.ikaimen.rabbitmq;
+package com.ikaimen.core.rabbitmq;
 
 import com.rabbitmq.client.*;
 
@@ -20,14 +20,15 @@ public class PublisherConfirms {
 
     static {
         factory = new ConnectionFactory();
-        factory.setHost("你的MQ服务器IP");
+        factory.setHost("*.*.*.*");
         factory.setPort(5672);
-        factory.setUsername("你的消息服务器用户名");
-        factory.setPassword("你的消息服务器密码");
+        factory.setUsername("xxxx");
+        factory.setPassword("xxxx");
     }
 
 
     public static void main(String[] args) throws Exception {
+
         // Publish MSG_COUNT messages and wait for confirms.
         (new Thread(new Consumer())).start();
         // Consume MSG_COUNT messages.

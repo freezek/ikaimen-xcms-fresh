@@ -1,4 +1,4 @@
-package com.ikaimen.properties;
+package com.ikaimen.core.properties;
 
 /**
  * Created by Administrator on 2017/5/5.
@@ -36,7 +36,7 @@ public class MyBatisConfig implements TransactionManagementConfigurer {
     public SqlSessionFactory sqlSessionFactoryBean() {
         SqlSessionFactoryBean bean = new SqlSessionFactoryBean();
         bean.setDataSource(dataSource);
-        bean.setTypeAliasesPackage("com.ikaimen.entity.config");
+        bean.setTypeAliasesPackage("com.ikaimen.core.entity.config");
 
         //分页插件
 //        PageHelper pageHelper = new PageHelper();

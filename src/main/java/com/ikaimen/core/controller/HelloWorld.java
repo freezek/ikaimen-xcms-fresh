@@ -1,8 +1,8 @@
-package com.ikaimen.controller;
+package com.ikaimen.core.controller;
 
-import com.ikaimen.entity.model.User;
-import com.ikaimen.properties.GirlPropertis;
-import com.ikaimen.service.IUserService;
+import com.ikaimen.core.entity.model.User;
+import com.ikaimen.core.properties.GirlPropertis;
+import com.ikaimen.core.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;

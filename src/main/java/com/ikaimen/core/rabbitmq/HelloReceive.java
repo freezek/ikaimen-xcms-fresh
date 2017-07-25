@@ -1,6 +1,6 @@
-package com.ikaimen.rabbitmq;
+package com.ikaimen.core.rabbitmq;
 
-import com.ikaimen.entity.model.User;
+import com.ikaimen.core.entity.model.User;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Component;
 

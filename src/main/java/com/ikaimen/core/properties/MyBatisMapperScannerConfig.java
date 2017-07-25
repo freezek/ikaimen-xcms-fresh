@@ -1,4 +1,4 @@
-package com.ikaimen.properties;
+package com.ikaimen.core.properties;
 
 import org.mybatis.spring.mapper.MapperScannerConfigurer;
 import org.springframework.boot.autoconfigure.AutoConfigureAfter;
@@ -17,7 +17,7 @@ public class MyBatisMapperScannerConfig {
     public MapperScannerConfigurer mapperScannerConfigurer() {
         MapperScannerConfigurer mapperScannerConfigurer = new MapperScannerConfigurer();
         mapperScannerConfigurer.setSqlSessionFactoryBeanName("sqlSessionFactory");
-        mapperScannerConfigurer.setBasePackage("com.ikaimen.mapper");
+        mapperScannerConfigurer.setBasePackage("com.ikaimen.core.mapper");
         return mapperScannerConfigurer;
     }
 

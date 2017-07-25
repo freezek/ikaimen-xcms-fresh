@@ -1,8 +1,8 @@
 package com.ikaimen.mybatis;
 
 import com.ikaimen.AikaimenSpringBootXcmsApplication;
-import com.ikaimen.entity.model.User;
-import com.ikaimen.service.IUserService;
+import com.ikaimen.core.entity.model.User;
+import com.ikaimen.core.service.IUserService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

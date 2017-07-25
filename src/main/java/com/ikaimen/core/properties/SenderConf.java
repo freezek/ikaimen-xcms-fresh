@@ -1,4 +1,4 @@
-package com.ikaimen.properties;
+package com.ikaimen.core.properties;
 
 import org.springframework.amqp.core.Queue;
 import org.springframework.context.annotation.Bean;

@@ -1,4 +1,4 @@
-package com.ikaimen.utils.model;
+package com.ikaimen.core.common.result;
 
 import java.io.Serializable;
 import java.util.List;

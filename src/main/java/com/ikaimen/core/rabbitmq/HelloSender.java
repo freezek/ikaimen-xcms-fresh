@@ -1,6 +1,6 @@
-package com.ikaimen.rabbitmq;
+package com.ikaimen.core.rabbitmq;
 
-import com.ikaimen.entity.model.User;
+import com.ikaimen.core.entity.model.User;
 import com.xiaoleilu.hutool.date.DateUtil;
 import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.factory.annotation.Autowired;

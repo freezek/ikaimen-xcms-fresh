@@ -1,6 +1,6 @@
-package com.ikaimen.service;
+package com.ikaimen.core.service;
 
-import com.ikaimen.entity.model.User;
+import com.ikaimen.core.entity.model.User;
 
 import java.util.List;
 

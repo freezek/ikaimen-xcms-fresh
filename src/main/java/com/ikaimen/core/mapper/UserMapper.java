@@ -1,6 +1,6 @@
-package com.ikaimen.mapper;
+package com.ikaimen.core.mapper;
 
-import com.ikaimen.entity.model.User;
+import com.ikaimen.core.entity.model.User;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;

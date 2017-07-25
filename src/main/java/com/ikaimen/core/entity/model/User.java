@@ -1,4 +1,4 @@
-package com.ikaimen.entity.model;
+package com.ikaimen.core.entity.model;
 
 import java.io.Serializable;
 
