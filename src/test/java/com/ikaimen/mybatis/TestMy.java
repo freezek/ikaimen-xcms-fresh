@@ -1,6 +1,6 @@
 package com.ikaimen.mybatis;
 
-import com.ikaimen.AikaimenSpringBootXcmsApplication;
+import com.ikaimen.IKaimenSpringBootXcmsApplication;
 import com.ikaimen.core.entity.model.User;
 import com.ikaimen.core.service.IUserService;
 import org.junit.Test;
@@ -13,7 +13,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  * Created by Administrator on 2017/5/5.
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringBootTest(classes = AikaimenSpringBootXcmsApplication.class)
+@SpringBootTest(classes = IKaimenSpringBootXcmsApplication.class)
 public class TestMy {
 
     @Autowired

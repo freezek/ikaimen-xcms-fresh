@@ -4,9 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class IkaimenSpringBootXcmsApplication {
+public class IKaimenSpringBootXcmsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(IkaimenSpringBootXcmsApplication.class, args);
+		SpringApplication.run(IKaimenSpringBootXcmsApplication.class, args);
 	}
 }
